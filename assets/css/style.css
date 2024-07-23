@@ -1,5 +1,25 @@
+@import url(https://fonts.bunny.net/css?family=roboto-serif:100,200,300,400,500,600,700,800,900);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Serif', serif;
+}
+
+.navbar_contacts {
+    width: 100vw;
+    height: 40px;
+    position: relative;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.navbar_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
