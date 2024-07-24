@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=roboto-serif:100,200,300,400,500,600,700,800,900);
+@import url(https://fonts.bunny.net/css?family=roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
 
 * {
   margin: 0;
@@ -7,19 +7,269 @@
 }
 
 body {
-    font-family: 'Roboto Serif', serif;
+  width: 100vw;
+  line-height: 1.5;
+  color: #212529;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar_contacts {
-    width: 100vw;
-    height: 40px;
-    position: relative;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+  width: 100vw;
+  height: 40px;
+  padding-top: 0.7em;
+  padding-bottom: 0.5rem;
+  background-color: #212934;
 }
 
 .navbar_container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 0px auto;
+  color: #cfd6e1;
+  font-size: 0.7em;
+  font-weight: 200;
 }
+
+.navbar_container a,
+i {
+  text-decoration: none;
+  color: #cfd6e1;
+}
+.navbar_container i {
+  margin: 0px 6px;
+}
+
+.navbar_menu {
+  width: 75%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar_logo {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin: 0px 18px 8px 0px;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #59ab6e;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar_links {
+  width: 40%;
+}
+
+.navbar_links ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar_links a {
+  list-style: none;
+  text-decoration: none;
+  color: #212934;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.navbar_icons i {
+  position: relative;
+  color: #212529;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.navbar_icons span {
+  position: absolute;
+  background-color: #e9eef5;
+  border-radius: 50rem;
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  border-radius: 25rem;
+  color: #212529;
+  transform: translate(-50%, -50%);
+}
+
+.section_1 {
+  width: 100%;
+  background: #efefef;
+  padding: 10px;
+}
+
+.sec1_content {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+.sec1_text {
+  width: 40%;
+  padding: 0px 10px;
+}
+
+.sec1_text h1 {
+  color: #59ab6e;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.sec1_text span {
+  font-weight: 100;
+}
+
+.sec1_text h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.sec1_text p {
+  font-size: 1em;
+  font-weight: 300;
+  padding-top: 0.3rem;
+}
+
+.sec1_text a {
+  color: #59ab6e;
+}
+
+.sec1_img {
+  width: 40%;
+}
+
+.sec1_img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.sec1_content::before {
+  width: 5%;
+  font-family: "Font Awesome 5 free";
+  content: "\f053";
+  color: #59ab6e;
+  font-weight: 900;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon_after::after {
+  width: 5%;
+  font-family: "Font Awesome 5 free";
+  content: "\f054";
+  color: #59ab6e;
+  font-weight: 900;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.section_2 {
+  width: 100%;
+}
+
+.sec2_container {
+  width: 90%;
+  margin: auto;
+  padding: 3em 0.8em;
+}
+
+.sec2_content {
+  width: 40%;
+  margin: 10px auto;
+}
+
+.sec2_text {
+  text-align: center;
+}
+
+.sec2_text h2 {
+  font-size: 3.2rem;
+  font-weight: 100;
+}
+
+.sec2_text p {
+  font-size: 1.1em;
+  font-weight: 300;
+  padding-top: 0.3rem;
+}
+
+.sec2_img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 3rem;
+}
+
+.sec2_img img {
+  width: 75%;
+  border-radius: 50%;
+}
+
+.sec2_img h5 {
+  font-size: 1.3rem;
+  margin: 15px auto;
+  font-weight: 500;
+}
+
+.sec2_img .sec2_btn {
+  font-weight: 400;
+  color: #e9eef5;
+  background-color: #59ab6e;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.section_3 {
+    width: 100%;
+    background-color: #e9eef5;
+  }
+  
+  .sec3_container {
+    width: 90%;
+    margin: auto;
+    padding: 3em 0.8em;
+  }
+  
+  .sec3_content {
+    width: 40%;
+    margin: 10px auto;
+  }
+  
+  .sec3_text {
+    text-align: center;
+  }
+  
+  .sec3_text h2 {
+    font-size: 3.2rem;
+    font-weight: 100;
+  }
+  
+  .sec3_text p {
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-top: 0.3rem;
+  }
